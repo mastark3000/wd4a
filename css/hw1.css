@@ -1,0 +1,138 @@
+body{
+	display: table;
+	padding: 15px;
+	margin: 2%;
+}
+header{
+	background-color: #D3D3D3;
+	background-image: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
+	background-size: cover;
+	background-position: fixed;0
+	background-repeat: no-repeat;
+	border : 1px solid black;
+	text-align: center;
+	padding-bottom: 25px;
+}
+h1{
+	padding: 10px;
+	text-transform: uppercase;
+	color: white;
+}
+
+nav a{
+	border-radius: 15%;
+	display: inline-block;
+	text-decoration: none;
+	margin: 65px;
+	padding: 1% 2%; 
+}
+
+
+.active{
+	background-color: #FFFFFF;
+	color: #02386E;
+}
+a:visited{
+	background-color: #F2FFFD;
+	color: #000000;
+}
+a:hover{
+	background-color: #AD6B07;
+	color: #FFFFFF;
+}
+a:focus{
+	background-color: #FFFFFF;
+	color: #73FF06;
+}
+a:active{
+	background-color: #73FF06;
+	color: #0000FF;
+}
+section{
+	height: 100%;
+	float: left;
+	width: 20%;
+}
+
+.left{
+	background-color: #006400;
+	padding: 20px 10px;
+	width: 18%;
+
+}
+.right
+{
+	width: 76%;
+	height: 100%;
+	padding: 2% 1%;
+}
+img{
+	/*OVERFLOW: AUTO;IF IMAGE IS LARGER THAN THE DIV CONSUMING AREA ,THIS IS GIVE OPTION WITH SCROLLING.*/
+	border: 2px solid #000000;
+	font-family: verdana,helvatica,times new roman;
+	font-weight: 5px;
+	line-height: 5px;
+	margin : 0 auto; 
+	padding: 5% 0;
+	display: block;
+	width: 200px;
+	height: 200px;
+}
+table{
+	margin: 0 auto;
+	padding: 5%;
+	width: 65%;
+	height: vh;
+	border-style: none;
+	background-color: #FFFFFF;
+}
+tr:hover
+{
+	opacity: 1;
+	font-size: 36px;
+	text-transform: uppercase;
+	width: 100%;
+
+}
+th{
+	background-color: #00FF00;
+	font-weight: bolder;
+	font-size: 35px;/*one extra property added*/
+}
+/*
+tr:firstline {
+	background-color: #808080;
+}*/
+tr{
+	/*background-image: liner-gardient(to bottom, #00FF00,#FF0000);*/
+	font-size: 20px;
+	
+}
+th:nth-child(1){
+	border-radius: 45% 0% 0% 0%;
+}
+th:nth-child(3){
+	border-radius: 0% 45% 0% 0%;
+}
+
+td{
+	margin: 2%;
+	padding : 5px;
+	text-align: center;
+	background-color: #90EE90;
+	color: #0000ff;
+	border-radius: 2px;
+	text-shadow: all;
+	opacity: 0.8;
+}
+td:nth-child(1){
+	text-align: left;
+}
+th{
+	border-bottom: 3px solid #000000;
+}
+
+}
+#grad {
+  background-image: linear-gradient(#90EE90, #FFFFFF);
+}

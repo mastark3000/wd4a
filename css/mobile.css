@@ -1,0 +1,47 @@
+@media screen and (max-width: 1000px){
+	body{
+		/*background-color: skyblue;*/
+		width: 100vw;
+	}
+header,section,section.left,section.right{
+	display: block;
+	width: 98vw;
+	}
+	img{
+		display: inline-block;
+		width: 30%;
+		padding: 0px 0px;
+		margin: 0 7px;
+	}
+	section.left{
+			background-color: white;
+	}
+	table{
+		background-color: green;
+		width: 98vw;
+	}
+	nav a{
+		background-color: green;
+		display: inline-block;
+		margin : 0 5%;
+	}
+	h1{
+		color: darkblue;
+	}
+	header>h1:hover{
+		color: white;
+		transition: 0.5sec h1 color;
+	}
+	section>h2{
+		color: gray;
+	}
+	h3{
+		background-color: red;
+		color: white;
+		font-size: 60px;
+	}
+	p{
+		font-weight: bolder;
+		font-family: sans-serif,helvatica,times new roman;
+	}
+}
